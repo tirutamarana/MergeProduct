@@ -16,11 +16,15 @@ Clone the project and follow below steps:
   4. Setting: ![Copy always](https://github.com/tirutamarana/MergeProduct/assets/157348330/797d0993-af5c-4cee-a197-1ef2c520f820)
 
   5. Files: ![Data Files](https://github.com/tirutamarana/MergeProduct/assets/157348330/861ba0fc-e2d3-4a47-b888-e9873fda14c6)
-  6. Build the solution and make sure to restore nuget packages.
-  7. Execution: Two ways to see the results.
+  6. DataConfig.json: This file will have the filenames and their paths.
+  7. Build the solution and make sure to restore nuget packages.
+  8. Execution: Two ways to see the results.
      
                 1. Build the test project and run all tests. When all tests are passed, check the test project bin folder for \bin\Debug\output\result_output.csv
                 2. Run the console application. When it is finished, check the console app bin folder for \bin\Debug\netcoreapp3.1\output\result_output.csv
-
+  9. Improvements:
+      
+            1. Handling Exception and logging the errors.
+            2. NUnit test project is on .net core 3.1. It can be use upgraded to supported version .net 6.0+.
 
 
