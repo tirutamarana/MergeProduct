@@ -1,7 +1,6 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace MasterProductsConsoleApp.Entities
+namespace ProductsConsoleApp.Entities
 {
     public class DataConfig
     {

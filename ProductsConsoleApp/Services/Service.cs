@@ -1,5 +1,5 @@
-﻿using MasterProductsConsoleApp.Entities;
-using MasterProductsConsoleApp.Helpers;
+﻿using ProductsConsoleApp.Entities;
+using ProductsConsoleApp.Helpers;
 using CsvHelper;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MasterProductsConsoleApp.Services
+namespace ProductsConsoleApp.Services
 {
     public class Service : IService
     {
@@ -80,7 +80,7 @@ namespace MasterProductsConsoleApp.Services
 
             //join the filtered bard codes with merged catalogs to get the mega catalog list
             var megaCatalog = (from filter in filteredCatalogs
-                               join merge in mergedCatalogs on 
+                               join merge in mergedCatalogs on
                                new { filter.SKU, filter.Source } equals new { merge.SKU, merge.Source }
                                select new SuperCatalog { SKU = merge.SKU, Description = merge.Description, Source = merge.Source }).ToList();
 

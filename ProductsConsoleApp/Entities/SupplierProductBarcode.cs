@@ -1,6 +1,6 @@
 ﻿using CsvHelper.Configuration.Attributes;
 
-namespace MasterProductsConsoleApp.Entities
+namespace ProductsConsoleApp.Entities
 {
     public class SupplierProductBarcode
     {

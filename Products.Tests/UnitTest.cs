@@ -1,6 +1,6 @@
-using MasterProductsConsoleApp.Entities;
-using MasterProductsConsoleApp.Helpers;
-using MasterProductsConsoleApp.Services;
+using ProductsConsoleApp.Entities;
+using ProductsConsoleApp.Helpers;
+using ProductsConsoleApp.Services;
 using NUnit.Framework;
 using System.Collections.Generic;
 using System.IO;

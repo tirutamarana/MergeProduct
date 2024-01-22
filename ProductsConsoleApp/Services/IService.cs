@@ -1,7 +1,7 @@
-﻿using MasterProductsConsoleApp.Entities;
+﻿using ProductsConsoleApp.Entities;
 using System.Collections.Generic;
 
-namespace MasterProductsConsoleApp.Services
+namespace ProductsConsoleApp.Services
 {
     public interface IService
     {

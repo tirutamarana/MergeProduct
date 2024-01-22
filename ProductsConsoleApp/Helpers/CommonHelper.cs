@@ -1,8 +1,8 @@
-﻿using MasterProductsConsoleApp.Entities;
+﻿using ProductsConsoleApp.Entities;
 using Newtonsoft.Json;
 using System.IO;
 
-namespace MasterProductsConsoleApp.Helpers
+namespace ProductsConsoleApp.Helpers
 {
     public static class CommonHelper
     {

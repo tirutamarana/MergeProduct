@@ -1,10 +1,10 @@
-﻿using MasterProductsConsoleApp.Entities;
-using MasterProductsConsoleApp.Helpers;
-using MasterProductsConsoleApp.Services;
+﻿using ProductsConsoleApp.Entities;
+using ProductsConsoleApp.Helpers;
+using ProductsConsoleApp.Services;
 using System;
 using System.IO;
 
-namespace MasterProductsConsoleApp
+namespace ProductsConsoleApp
 {
     class Program
     {

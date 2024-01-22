@@ -1,5 +1,5 @@
 ﻿
-namespace MasterProductsConsoleApp.Helpers
+namespace ProductsConsoleApp.Helpers
 {
     public enum SourceEnum
     {
