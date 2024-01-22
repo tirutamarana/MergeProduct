@@ -1,0 +1,20 @@
+﻿{
+  "__comment__": "InputFolderPath value can be 'C:\\Users\\T\\input\\'. Make sure to escape single '\\' with double \\*",
+  "InputFolderPath": "input",
+  "CompanyFiles": [
+    {
+      "Source": "A", /* Info: Source means the company.*/
+      "Catalog": "catalogA.csv", /* This is file name with extention .csv. Same applies to below two properties.*/
+      "SupplierBarcodes": "barcodesA.csv",
+      "Suppliers": "suppliersA.csv"
+    },
+    {
+      "Source": "B",
+      "Catalog": "catalogB.csv",
+      "SupplierBarcodes": "barcodesB.csv",
+      "Suppliers": "suppliersB.csv"
+    }
+  ],
+  "OutputFolderPath": "output",
+  "OutputFileName": "result_output.csv" /* This is file name with extention .csv.*/
+}
