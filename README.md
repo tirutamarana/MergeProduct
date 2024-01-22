@@ -1,6 +1,6 @@
 **Instructions:**
 
-Clone the project and follow below steps:
+Clone the project from **master** branch and follow below steps:
   1. Make sure to have .net core 3.1 sdk is installed.
   2.     
     
